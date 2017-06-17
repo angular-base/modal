@@ -1,0 +1,5 @@
+<div class="modal-overlay" [class.is-visible]="isVisible" (click)="close()">
+  <div class="modal" (click)="preventClosing($event)">
+    <ng-content></ng-content>
+  </div>
+</div>

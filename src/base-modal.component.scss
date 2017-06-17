@@ -1,0 +1,15 @@
+// Dependencies
+@import '../../../../node_modules/sassy-lists/stylesheets/functions/first';
+@import '../../../../node_modules/sassy-lists/stylesheets/functions/is-empty';
+
+// Utilities
+@import '../../../../node_modules/scss-base-sites/src/utilities/utilities';
+
+// Settings
+@import '../../../settings';
+
+// Components
+@import '../../../../node_modules/scss-base-sites/src/base/base';
+@import '../../../../node_modules/scss-base-sites/src/components/components';
+
+@include base-modal;
